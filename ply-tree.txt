@@ -1,0 +1,16 @@
+Statements
+    Assign
+        z
+        2
+    If-Else
+        <
+            z
+            3
+        Statements
+            Assign
+                z
+                1
+        Statements
+            Assign
+                z
+                0

@@ -1,0 +1,14 @@
+z := 2;
+if z < 3 then
+  z := 1;
+  write z;
+  read z;
+  while z < 5 do
+    z := z + 1;
+    if z = 4 then
+      write z;
+    else
+      z := z * 2;
+    end;
+  end;
+end;

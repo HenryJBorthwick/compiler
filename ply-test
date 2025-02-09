@@ -1,0 +1,41 @@
+Test follow the following format:
+Test	
+Expected
+Got
+
+parser: write, addition, subtraction, assignments
+Correct output
+Correct output
+parser: write, while-do-end, if-then-end, addition, assignments
+Correct output
+Wrong output
+parser: read, while-do-end, if-then-end, addition, division, assignments
+Correct output
+Wrong output
+parser: read, write, while-do-end, addition, subtraction, assignments
+Correct output
+Correct output
+parser: read, write, nested while-do-end, multiplication, subtraction, assignments
+Correct output
+Correct output
+parser: if-then-else-end, division, assignments
+Correct output
+Correct output
+parser: read, write, nested while-do-end, nested if-then-else-end, inequality, subtraction, assignments
+Correct output
+Correct output
+parser: write, while-do-end, if-then-end, nested if-then-else-end, arithmetic, assignments
+Correct output
+Wrong output
+parser: read, write, nested while-do-end, if-then-end, if-then-else-end, arithmetic, assignments
+Correct output
+Wrong output
+parser: while-do-end, subtraction, assignments, lexical error
+Correct output
+Correct output
+parser: assignments, syntax error
+Correct output
+Correct output
+parser: read, syntax error
+Correct output
+Correct output
